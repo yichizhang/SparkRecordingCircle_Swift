@@ -17,9 +17,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    RecordingCircleOverlayView *recordingCircleOverlayView = [[RecordingCircleOverlayView alloc] initWithFrame:self.view.bounds strokeWidth:7.f insets:UIEdgeInsetsMake(10.f, 0.f, 10.f, 0.f)];
-    recordingCircleOverlayView.autoresizingMask = UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth;
+	self.view.backgroundColor = [UIColor whiteColor];
+	
+	CGFloat w = CGRectGetHeight(self.view.bounds);
+    RecordingCircleOverlayView *recordingCircleOverlayView = [[RecordingCircleOverlayView alloc] initWithFrame:CGRectMake(CGRectGetMidX(self.view.bounds)-w*0.5f, 0, w, w) strokeWidth:7.f insets:UIEdgeInsetsMake(10.f, 0.f, 10.f, 0.f)];
     recordingCircleOverlayView.duration = 10.f;
     [self.view addSubview:recordingCircleOverlayView];
 }

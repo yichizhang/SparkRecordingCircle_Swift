@@ -13,8 +13,6 @@
 		A836A9CF189C996D0033E3C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A836A9CD189C996D0033E3C5 /* InfoPlist.strings */; };
 		A836A9D1189C996D0033E3C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A836A9D0189C996D0033E3C5 /* main.m */; };
 		A836A9D5189C996D0033E3C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A836A9D4189C996D0033E3C5 /* AppDelegate.m */; };
-		A836A9D8189C996D0033E3C5 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A836A9D6189C996D0033E3C5 /* Main_iPhone.storyboard */; };
-		A836A9DB189C996D0033E3C5 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A836A9D9189C996D0033E3C5 /* Main_iPad.storyboard */; };
 		A836A9DE189C996D0033E3C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A836A9DD189C996D0033E3C5 /* ViewController.m */; };
 		A836A9E0189C996D0033E3C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A836A9DF189C996D0033E3C5 /* Images.xcassets */; };
 		A836A9E7189C996D0033E3C5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A836A9E6189C996D0033E3C5 /* XCTest.framework */; };
@@ -46,8 +44,6 @@
 		A836A9D2189C996D0033E3C5 /* SparkRecordingCircle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SparkRecordingCircle-Prefix.pch"; sourceTree = "<group>"; };
 		A836A9D3189C996D0033E3C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A836A9D4189C996D0033E3C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A836A9D7189C996D0033E3C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		A836A9DA189C996D0033E3C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		A836A9DC189C996D0033E3C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A836A9DD189C996D0033E3C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A836A9DF189C996D0033E3C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -119,8 +115,6 @@
 			children = (
 				A836A9D3189C996D0033E3C5 /* AppDelegate.h */,
 				A836A9D4189C996D0033E3C5 /* AppDelegate.m */,
-				A836A9D6189C996D0033E3C5 /* Main_iPhone.storyboard */,
-				A836A9D9189C996D0033E3C5 /* Main_iPad.storyboard */,
 				A836A9DC189C996D0033E3C5 /* ViewController.h */,
 				A836A9DD189C996D0033E3C5 /* ViewController.m */,
 				A836A9FC189C997B0033E3C5 /* RecordingCircleOverlayView.h */,
@@ -236,9 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A836A9DB189C996D0033E3C5 /* Main_iPad.storyboard in Resources */,
 				A836A9E0189C996D0033E3C5 /* Images.xcassets in Resources */,
-				A836A9D8189C996D0033E3C5 /* Main_iPhone.storyboard in Resources */,
 				A836A9CF189C996D0033E3C5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,22 +282,6 @@
 				A836A9CE189C996D0033E3C5 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A836A9D6189C996D0033E3C5 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A836A9D7189C996D0033E3C5 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		A836A9D9189C996D0033E3C5 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A836A9DA189C996D0033E3C5 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		A836A9EF189C996D0033E3C5 /* InfoPlist.strings */ = {
