@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "RecordingCircleOverlayView.h"
+#import "SparkRecordingCircle-Swift.h"
 
 @interface ViewController ()
 @end
